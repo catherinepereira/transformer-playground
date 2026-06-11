@@ -1,5 +1,4 @@
 import { References } from "./components/References";
-import { SeriesNav } from "./components/SeriesNav";
 import { SiteHeader } from "./components/SiteHeader";
 import { TransformerProvider } from "./lib/TransformerContext";
 import { AttentionSection } from "./sections/AttentionSection";
@@ -53,8 +52,6 @@ export function App() {
           , value aggregation, feed-forward block, and a prediction for a masked
           word.
         </SiteHeader>
-
-        <SeriesNav currentSlug="transformer-playground" />
 
         <main className="mt-12 flex flex-col gap-12">
           <TransformerProvider>
