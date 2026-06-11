@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 
 // Pick a unique port for each site so multiple `npm run dev` instances coexist.
 // Assigned ports live in ../readme.md (5500-5510).
-const DEV_FRONTEND_PORT = 5506;
+const DEV_FRONTEND_PORT = 5521;
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
